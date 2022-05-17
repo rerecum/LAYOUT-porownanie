@@ -1,0 +1,27 @@
+KACPER HNATYSZYN 3PRT5
+
+LinearLayout to grupa widoków, która wyrównuje wszystkie elementy podrzędne w jednym kierunku, pionowo lub poziomo.
+Możesz określić kierunek układu za pomocą atrybutu android:orientation.
+
+
+FrameLayout to jeden z najprostszych układów do organizowania kontrolek widoku.
+Są przeznaczone do blokowania obszaru na ekranie.
+FL powinien być używany do przechowywania widoku podrzędnego, ponieważ wyświetlanie
+pojedynczych widoków w określonym obszarze ekranu bez nakładania się na siebie może być trudne.
+
+
+Android TableLayout to podklasa ViewGroup, która służy do wyświetlania podrzędnych elementów View w wierszach i kolumnach.
+Uporządkuje wszystkie elementy potomne w wiersze i kolumny i nie wyświetla żadnych linii granicznych między wierszami, kolumnami ani komórkami.
+
+
+PODOBIEŃSTWA:
+Wszystkie typy są stworzone do budowania layoutu programu. 
+
+RÓŻNICE:
+Każdy typ layout'ów ma swój własny zakres możliwości i opcji.
+
+WADY:
+LinearLayout ma słabą wydajność i obsługę narzędzi, góruje nad nim ConstraintLayout.
+
+ZALETY:
+Zbudujesz wymarzony layout ;)
